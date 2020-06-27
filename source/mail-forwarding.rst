@@ -25,6 +25,7 @@ To forward all mails from ``forwardme`` to ``mail@allcolorsarebeautiful.example`
  Mail to forwardme will be forwarded to mail@allcolorsarebeautiful.example.
  [isabell@philae ~]$
 
+Alternatively, you can redirect directly to a local mailbox. For example ''promotions'' should get redirected to ''info@...''. Thus: ''uberspace mail user forward set promotions admin''
 .. tip::
     ``uberspace mail user forward set`` overwrites existing configurations.
 
